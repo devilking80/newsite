@@ -745,7 +745,7 @@
 .u-section-4 .u-gallery-1 {
   height: 160px;
   width: 160px;
-  margin: -402px auto 0 31px;
+  margin: -407px auto 0 31px;
 }
 
 .u-section-4 .u-carousel-indicators-1 {
@@ -769,7 +769,7 @@
 }
 
 .u-section-4 .u-back-image-2 {
-  object-position: 51.1% 50%;
+  object-position: 51.1% 100%;
 }
 
 .u-section-4 .u-over-slide-2 {
@@ -812,7 +812,7 @@
 .u-section-4 .u-gallery-2 {
   height: 155px;
   width: 156px;
-  margin: -160px auto 0 283px;
+  margin: -155px auto 0 283px;
 }
 
 .u-section-4 .u-carousel-indicators-2 {
@@ -1413,4 +1413,18 @@
     padding-left: 10px;
     padding-right: 10px;
   }
+}
+.caret{
+  float: corner;
+}
+.sub-menu-2{
+  display: none;
+}
+.hover-me:hover .sub-menu-2
+{
+  position: absolute;
+  display: block;
+  margin-top: -40px;
+  margin-left: 140px;
+  background: rgba(0,100,0);
 }
